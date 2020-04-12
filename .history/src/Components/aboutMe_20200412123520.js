@@ -49,7 +49,7 @@ export default class About extends Component {
             <div className="col-md-6 text-center animate-box">
                 <div className="services color-3">
                 <span className="icon">
-                    <i className="icon-bulb" />
+                    <i className="icon-phone3" />
                 </span>
                 <div className="desc">
                     <h3>New York University</h3>
@@ -58,9 +58,9 @@ export default class About extends Component {
                 </div>
             </div>
             <div className="col-md-6 text-center animate-box">
-                <div className="services color-4">
+                <div className="services color-5">
                 <span className="icon">
-                    <i className="icon-bulb" />
+                    <i className="icon-data" />
                 </span>
                 <div className="desc">
                     <h3>ScrollGrade</h3>
@@ -71,7 +71,7 @@ export default class About extends Component {
             <div className="col-md-6 text-center animate-box">
                 <div className="services color-5">
                 <span className="icon">
-                    <i className="icon-bulb" />
+                    <i className="icon-data" />
                 </span>
                 <div className="desc">
                     <h3>NYU-X Lab</h3>
@@ -80,24 +80,13 @@ export default class About extends Component {
                 </div>
             </div>
             <div className="col-md-6 text-center animate-box">
-                <div className="services color-6">
+                <div className="services color-5">
                 <span className="icon">
-                    <i className="icon-bulb" />
+                    <i className="icon-data" />
                 </span>
                 <div className="desc">
                     <h3>Tamkang University</h3>
                     <p>Twitter Sarcasm Detection using Deep Learning </p>
-                </div>
-                </div>
-            </div>
-            <div className="col-md-6 text-center animate-box">
-                <div className="services color-7 ">
-                <span className="icon">
-                    <i className="icon-bulb" />
-                </span>
-                <div className="desc">
-                    <h3>Tata Consultancy Services</h3>
-                    <p>Usability testing of Android applications</p>
                 </div>
                 </div>
             </div>

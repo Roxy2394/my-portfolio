@@ -91,7 +91,7 @@ export default class About extends Component {
                 </div>
             </div>
             <div className="col-md-6 text-center animate-box">
-                <div className="services color-7 ">
+                <div className="services color-7">
                 <span className="icon">
                     <i className="icon-bulb" />
                 </span>

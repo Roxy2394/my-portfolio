@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import Introduction from './components/introduction.js'
 import About from './components/aboutMe.js';
+// import Projects from './Components/timeline'
+// import Blog from './components/blog'
 import Timeline from './components/timeline'
 import Sidebar from './components/sidebar.js';
 

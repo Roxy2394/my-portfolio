@@ -35,7 +35,7 @@ export default class About extends Component {
             </div>
             </div>
             <div className="row row-pt-md">
-            <div className="col-md-6 text-center animate-box">
+            <div className="col-md-4 text-center animate-box">
                 <div className="services color-1">
                 <span className="icon">
                     <i className="icon-bulb" />
@@ -46,10 +46,10 @@ export default class About extends Component {
                 </div>
                 </div>
             </div>
-            <div className="col-md-6 text-center animate-box">
+            <div className="col-md-4 text-center animate-box">
                 <div className="services color-3">
                 <span className="icon">
-                    <i className="icon-bulb" />
+                    <i className="icon-phone3" />
                 </span>
                 <div className="desc">
                     <h3>New York University</h3>
@@ -57,10 +57,10 @@ export default class About extends Component {
                 </div>
                 </div>
             </div>
-            <div className="col-md-6 text-center animate-box">
-                <div className="services color-4">
+            <div className="col-md-4 text-center animate-box">
+                <div className="services color-5">
                 <span className="icon">
-                    <i className="icon-bulb" />
+                    <i className="icon-data" />
                 </span>
                 <div className="desc">
                     <h3>ScrollGrade</h3>
@@ -68,36 +68,14 @@ export default class About extends Component {
                 </div>
                 </div>
             </div>
-            <div className="col-md-6 text-center animate-box">
+            <div className="col-md-4 text-center animate-box">
                 <div className="services color-5">
                 <span className="icon">
-                    <i className="icon-bulb" />
+                    <i className="icon-data" />
                 </span>
                 <div className="desc">
                     <h3>NYU-X Lab</h3>
                     <p>Software Engineering</p>
-                </div>
-                </div>
-            </div>
-            <div className="col-md-6 text-center animate-box">
-                <div className="services color-6">
-                <span className="icon">
-                    <i className="icon-bulb" />
-                </span>
-                <div className="desc">
-                    <h3>Tamkang University</h3>
-                    <p>Twitter Sarcasm Detection using Deep Learning </p>
-                </div>
-                </div>
-            </div>
-            <div className="col-md-6 text-center animate-box">
-                <div className="services color-7 ">
-                <span className="icon">
-                    <i className="icon-bulb" />
-                </span>
-                <div className="desc">
-                    <h3>Tata Consultancy Services</h3>
-                    <p>Usability testing of Android applications</p>
                 </div>
                 </div>
             </div>
@@ -112,28 +90,28 @@ export default class About extends Component {
             </div>
             </div>
             <div className="row row-pt-md">
-            <div className="col-sm-6 text-center animate-box">
+            <div className="col-md-4 text-center animate-box">
                 <div className="services color-1">
                 <div className="desc">
                     <img src={puzzle} alt="Puzzle" />
                 </div>
                 </div>
             </div>
-            <div className="col-sm-6 text-center animate-box">
-                <div className="services color-5">
-                <div className="desc">
-                    <img src={puzzle3} alt="Puzzle" />
-                </div>
-                </div>
-            </div>
-            <div className="col-sm-6 text-center animate-box">
+            <div className="col-md-4 text-center animate-box">
                 <div className="services color-3">
                 <div className="desc">
                     <img src={puzzle2} alt="Puzzle" />
                 </div>
                 </div>
             </div>
-            <div className="col-sm-6 text-center animate-box">
+            <div className="col-md-4 text-center animate-box">
+                <div className="services color-5">
+                <div className="desc">
+                    <img src={puzzle3} alt="Puzzle" />
+                </div>
+                </div>
+            </div>
+            <div className="col-md-4 text-center animate-box">
                 <div className="services color-1">
                 <div className="desc">
                     <img src={puzzle4} alt="Puzzle" />
