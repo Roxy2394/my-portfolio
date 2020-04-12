@@ -24,7 +24,7 @@ export default class About extends Component {
             </div>
         </div>
         </section>
-        <section className="colorlib-about" data-section="teams" >
+        <section className="colorlib-about">
         <div className="colorlib-narrow-content">
             <div className="row">
             <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
@@ -45,9 +45,9 @@ export default class About extends Component {
             </div>
             <div className="col-md-4 text-center animate-box">
                 <div className="services color-3">
-                <span className="icon">
+                {/* <span className="icon">
                     <i className="icon-phone3" />
-                </span>
+                </span> */}
                 <div className="desc">
                     <h3>New York University</h3>
                     <p>Adjunct Intructor, Tutor</p>
@@ -79,7 +79,7 @@ export default class About extends Component {
             </div>
         </div>
         </section>
-        <section className="colorlib-about" data-section="puzzles">
+        <section className="colorlib-about">
         <div className="colorlib-narrow-content">
             <div className="row">
             <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">

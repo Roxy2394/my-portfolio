@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import puzzle from '../puzzle.jpg'
 
 export default class About extends Component {
   render() {
@@ -13,10 +12,10 @@ export default class About extends Component {
                 <div className="col-md-12">
                     <div className="about-desc">
                     <h2 className="colorlib-heading">Who Am I?</h2>
-                    <p>Graduate student of Computer Science at New York University</p>
-                    <p>Software Engineering Intern a SquarePlan</p>
-                    <p>Adjunct Instructor at NYU Opportunity Programs</p>
-                    <p>Tutor at NYU Opportunity Program</p>    
+                    <p>Graduate student of Computer Science at New York University
+                    Software Engineering Intern a SquarePlan
+                    Adjunct Instructor at NYU Opportunity Programs
+                    Tutor at NYU Opportunity Program</p>    
                     </div>
                 </div>
                 </div>
@@ -24,11 +23,11 @@ export default class About extends Component {
             </div>
         </div>
         </section>
-        <section className="colorlib-about" data-section="teams" >
+        <section className="colorlib-about">
         <div className="colorlib-narrow-content">
             <div className="row">
             <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                <h2 className="colorlib-heading">Teams I've been a part of</h2>
+                <h2 className="colorlib-heading">The places I have worked at</h2>
             </div>
             </div>
             <div className="row row-pt-md">
@@ -61,7 +60,7 @@ export default class About extends Component {
                 </span>
                 <div className="desc">
                     <h3>ScrollGrade</h3>
-                    <p>Cloud backend architecture, NLP</p>
+                    <p>Cloubd backend architecture, NLP</p>
                 </div>
                 </div>
             </div>
@@ -73,38 +72,6 @@ export default class About extends Component {
                 <div className="desc">
                     <h3>NYU-X Lab</h3>
                     <p>Software Engineering</p>
-                </div>
-                </div>
-            </div>
-            </div>
-        </div>
-        </section>
-        <section className="colorlib-about" data-section="puzzles">
-        <div className="colorlib-narrow-content">
-            <div className="row">
-            <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                <h2 className="colorlib-heading">My favorite jigsaw puzzles</h2>
-            </div>
-            </div>
-            <div className="row row-pt-md">
-            <div className="col-md-4 text-center animate-box">
-                <div className="services color-1">
-                <div className="desc">
-                    {/* <img src={puzzle} alt="Puzzle" /> */}
-                </div>
-                </div>
-            </div>
-            <div className="col-md-4 text-center animate-box">
-                <div className="services color-3">
-                <div className="desc">
-                    {/* <img src={puzzle} alt="Puzzle" /> */}
-                </div>
-                </div>
-            </div>
-            <div className="col-md-4 text-center animate-box">
-                <div className="services color-5">
-                <div className="desc">
-                    {/* <img src={puzzle} alt="Puzzle" /> */}
                 </div>
                 </div>
             </div>

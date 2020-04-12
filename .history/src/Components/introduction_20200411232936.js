@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 
-
 export default class Introduction extends Component {
   render() {
     return (
@@ -16,7 +15,7 @@ export default class Introduction extends Component {
                       <div className="slider-text-inner js-fullheight">
                         <div className="desc">
                           <h1>That's me...<br />Hello!</h1>
-                          <p><a className="btn btn-primary btn-learn" href="https://drive.google.com/file/d/12kgfdXB555YVEj6M44rpEJXj04nsXaE6/view?usp=sharing" target="_blank" rel="noopener noreferrer">View resume<i className="icon-download4" /></a></p>
+                          <p><a className="btn btn-primary btn-learn" href="https://docs.google.com/document/d/15coSa2rnZcdywihM-pWTvoGqE65JAkxQAh6JDBNrF2Q/edit?usp=sharing" target="_blank" rel="noopener noreferrer">View resume<i className="icon-download4" /></a></p>
                         </div>
                       </div>
                     </div>

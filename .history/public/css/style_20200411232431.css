@@ -11,11 +11,6 @@
 *	Edit this section
 *
 * ======================================================= */
-
-/* .puzzle {
-  background-image: url(./puzzle.jpg);
-} */
-
 body {
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 400;
@@ -252,7 +247,7 @@ figure {
       #colorlib-hero .flexslider .slides li {
         background-repeat: no-repeat;
         background-size: contain;
-        background-position: bottom right;
+        background-position: bottom center;
         min-height: 400px;
         position: relative; }
     #colorlib-hero .flexslider .flex-control-nav {

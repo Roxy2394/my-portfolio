@@ -24,7 +24,7 @@ export default class About extends Component {
             </div>
         </div>
         </section>
-        <section className="colorlib-about" data-section="teams" >
+        <section className="colorlib-about">
         <div className="colorlib-narrow-content">
             <div className="row">
             <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
@@ -45,9 +45,9 @@ export default class About extends Component {
             </div>
             <div className="col-md-4 text-center animate-box">
                 <div className="services color-3">
-                <span className="icon">
+                {/* <span className="icon">
                     <i className="icon-phone3" />
-                </span>
+                </span> */}
                 <div className="desc">
                     <h3>New York University</h3>
                     <p>Adjunct Intructor, Tutor</p>
@@ -79,37 +79,60 @@ export default class About extends Component {
             </div>
         </div>
         </section>
-        <section className="colorlib-about" data-section="puzzles">
-        <div className="colorlib-narrow-content">
-            <div className="row">
-            <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                <h2 className="colorlib-heading">My favorite jigsaw puzzles</h2>
-            </div>
-            </div>
-            <div className="row row-pt-md">
-            <div className="col-md-4 text-center animate-box">
-                <div className="services color-1">
-                <div className="desc">
-                    {/* <img src={puzzle} alt="Puzzle" /> */}
+        <section className="colorlib-about">
+        <div>
+        <section id="colorlib-hero" className="js-fullheight" data-section="home">
+          <div className="flexslider js-fullheight">
+            <ul className="slides">
+              <li style={{backgroundImage: 'url(images/puzzle.jpg)'}}>
+                <div className="overlay" />
+                <div className="container-fluid">
+                  <div className="row">
+                    <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+                      <div className="slider-text-inner js-fullheight">
+                        <div className="desc">
+                          <h1>That's me...<br />Hello!</h1>
+                          <p><a className="btn btn-primary btn-learn" href="https://drive.google.com/file/d/12kgfdXB555YVEj6M44rpEJXj04nsXaE6/view?usp=sharing" target="_blank" rel="noopener noreferrer">View resume<i className="icon-download4" /></a></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+              </li>
+              <li style={{backgroundImage: 'url(images/puzzle.jpg)'}}>
+                <div className="overlay" />
+                <div className="container-fluid">
+                  <div className="row">
+                    <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+                      <div className="slider-text-inner">
+                        <div className="desc">
+                          <h1>I love solving 1000pc jigsaw puzzles</h1>
+                          <p><a className="btn btn-primary btn-learn" href="https://github.com/Roxy2394" target="_blank" rel="noopener noreferrer">Some puzzles I've solved before <i className="icon-briefcase3" /></a></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-            </div>
-            <div className="col-md-4 text-center animate-box">
-                <div className="services color-3">
-                <div className="desc">
-                    {/* <img src={puzzle} alt="Puzzle" /> */}
+              </li>
+              <li style={{backgroundImage: 'url(images/puzzle.jpg)'}}>
+                <div className="overlay" />
+                <div className="container-fluid">
+                  <div className="row">
+                    <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+                      <div className="slider-text-inner">
+                        <div className="desc">
+                          <h1>And I'm a creator at heart...</h1>
+                          <p><a className="btn btn-primary btn-learn" href="https://github.com/Roxy2394" target="_blank" rel="noopener noreferrer"> View Projects<i className="icon-briefcase3" /></a></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                </div>
-            </div>
-            <div className="col-md-4 text-center animate-box">
-                <div className="services color-5">
-                <div className="desc">
-                    {/* <img src={puzzle} alt="Puzzle" /> */}
-                </div>
-                </div>
-            </div>
-            </div>
-        </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
         </section>
       </div>
     )

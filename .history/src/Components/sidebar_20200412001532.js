@@ -9,7 +9,7 @@ export default class Sidebar extends Component {
           <aside id="colorlib-aside" className="border js-fullheight">
             <div className="text-center">
               <div className="author-img" style={{backgroundImage: 'url(images/about.jpeg)'}} />
-              <h1 id="colorlib-logo"><a href="index.html">Shweta S(h)rivastava</a></h1>
+              <h1 id="colorlib-logo"><a href="index.html">Shweta Shrivastava</a></h1>
               <span className="email"><i className="icon-mail"></i> shweta.srivastava2394@gmail.com</span>
             </div>
             <nav id="colorlib-main-menu" role="navigation" className="navbar">
@@ -18,8 +18,7 @@ export default class Sidebar extends Component {
                   <li className="active"><a href="#home" data-nav-section="home">Introduction</a></li>
                   <li><a href="#about" data-nav-section="about">About</a></li>
                   <li><a href="#projects" data-nav-section="projects">Projects</a></li>
-                  <li><a href="#teams" data-nav-section="teams">Teams I've been a part of</a></li>
-                  <li><a href="#puzzles" data-nav-section="puzzles">Jigsaw Puzzles</a></li>
+                  <li><a href="#teams" data-nav-section="timeline">Teams I've been a part of</a></li>
                 </ul>
               </div>
             </nav>
