@@ -1,8 +1,8 @@
 {
-	"name": "my-portfolio",
+	"name": "portfolio-app",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "https://Roxy2394.github.io/my-portfolio",
+	"homepage": "https://Roxy2394.github.io/Portfolio",
 	"dependencies": {
 		"gh-pages": "^2.0.1",
 		"react": "^16.8.3",

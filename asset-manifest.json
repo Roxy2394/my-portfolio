@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.dc0a14bb.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.2474011e.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.2474011e.chunk.js.map",
-    "runtime-main.js": "/my-portfolio/static/js/runtime-main.00bba678.js",
-    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.00bba678.js.map",
-    "static/js/2.e9c0c096.chunk.js": "/my-portfolio/static/js/2.e9c0c096.chunk.js",
-    "static/js/2.e9c0c096.chunk.js.map": "/my-portfolio/static/js/2.e9c0c096.chunk.js.map",
-    "index.html": "/my-portfolio/index.html",
-    "precache-manifest.87c978f64cc9f4f8f157415da5657e16.js": "/my-portfolio/precache-manifest.87c978f64cc9f4f8f157415da5657e16.js",
-    "service-worker.js": "/my-portfolio/service-worker.js",
-    "static/css/main.dc0a14bb.chunk.css.map": "/my-portfolio/static/css/main.dc0a14bb.chunk.css.map",
-    "static/js/2.e9c0c096.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.e9c0c096.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/my-portfolio/static/media/logo.5d5d9eef.svg",
-    "static/media/puzzle.jpg": "/my-portfolio/static/media/puzzle.3bc32de4.jpg",
-    "static/media/puzzle2.jpeg": "/my-portfolio/static/media/puzzle2.4bfab9fa.jpeg",
-    "static/media/puzzle3.jpeg": "/my-portfolio/static/media/puzzle3.17469043.jpeg",
-    "static/media/puzzle4.jpeg": "/my-portfolio/static/media/puzzle4.e353b8df.jpeg"
+    "main.css": "/static/css/main.dc0a14bb.chunk.css",
+    "main.js": "/static/js/main.e63f368f.chunk.js",
+    "main.js.map": "/static/js/main.e63f368f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.555d898a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.555d898a.js.map",
+    "static/js/2.e9c0c096.chunk.js": "/static/js/2.e9c0c096.chunk.js",
+    "static/js/2.e9c0c096.chunk.js.map": "/static/js/2.e9c0c096.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.0234c331ee6651063e3ac161fd6c8dfb.js": "/precache-manifest.0234c331ee6651063e3ac161fd6c8dfb.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.dc0a14bb.chunk.css.map": "/static/css/main.dc0a14bb.chunk.css.map",
+    "static/js/2.e9c0c096.chunk.js.LICENSE.txt": "/static/js/2.e9c0c096.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg",
+    "static/media/puzzle.jpg": "/static/media/puzzle.3bc32de4.jpg",
+    "static/media/puzzle2.jpeg": "/static/media/puzzle2.4bfab9fa.jpeg",
+    "static/media/puzzle3.jpeg": "/static/media/puzzle3.17469043.jpeg",
+    "static/media/puzzle4.jpeg": "/static/media/puzzle4.e353b8df.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.00bba678.js",
+    "static/js/runtime-main.555d898a.js",
     "static/js/2.e9c0c096.chunk.js",
     "static/css/main.dc0a14bb.chunk.css",
-    "static/js/main.2474011e.chunk.js"
+    "static/js/main.e63f368f.chunk.js"
   ]
 }
