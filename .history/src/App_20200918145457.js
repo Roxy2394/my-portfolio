@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Introduction from './components/introduction.js'
 import About from './components/aboutMe.js';
-import EducationTimeline from './components/timeline'
+import Timeline from './components/timeline'
 import Sidebar from './components/sidebar.js';
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
 		<Sidebar></Sidebar>
 		<div id="colorlib-main">
 			<Introduction></Introduction>
-			<EducationTimeline></EducationTimeline>
+			<Timeline></Timeline>
 			<About></About>
           	</div>
       	</div>

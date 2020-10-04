@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export default class EducationTimeline extends Component {
+export default class Timeline extends Component {
   render() {
     return (
       <div>
