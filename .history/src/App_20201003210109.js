@@ -6,8 +6,6 @@ import About from './components/aboutMe.js';
 import EducationTimeline from './components/timeline'
 import Sidebar from './components/sidebar.js';
 import WorkTimeline from './components/workTimeline.js'
-import Puzzles from './components/puzzles.js'
-import Projects from './components/projects.js'
 
 function App() {
   return (
@@ -15,12 +13,10 @@ function App() {
         <div id="container-wrap">
 		<Sidebar></Sidebar>
 		<div id="colorlib-main">
-			<Introduction/>
-			<About/>
 			<WorkTimeline/>
-			<Projects />
+			<Introduction/>
 			<EducationTimeline/>
-			<Puzzles />
+			<About/>
           	</div>
       	</div>
       </div>

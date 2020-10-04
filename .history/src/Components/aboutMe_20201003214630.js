@@ -5,7 +5,7 @@ export default class About extends Component {
   render() {
     return (
       <div>
-        <section className="colorlib-about" data-section="skills">
+        <section className="colorlib-about" data-section="about">
         <div className="colorlib-narrow-content">
             <div className="row">
             <div className="col-md-12">
@@ -19,33 +19,27 @@ export default class About extends Component {
                         <body>JavaScript
                             <br />Node.js
                             <br />React
-                            <br />Amazon Web Services
+                            <br />AWS
                             <br />MongoDB
                             <br />Python
-                            <br />RESTful APIs
                             <br />Git/Github
-                            <br /> Google Cloud Platform
                         </body>
                         </Grid>
                         <Grid item xs={6}>
                         <h3>Secondary Skills</h3>
-                        <body>Java
-                            <br />C++
-                            <br />R
-                            <br />SQL
-                            <br />MATLAB
-                            <br />CSS
-                            <br />HTML
-                            <br />Firebase
-                            <br />MySQL
-                        
+                        <body>JavaScript
+                            <br />Node.js
+                            <br />React
+                            <br />AWS
+                            <br />MongoDB
+                            <br />Git/Github
                         </body>
                         </Grid>
                     </Grid>
                     
-                    {/* <p>, , , , R, , , , </p>
-                    <p>, .js, Hadoop, Spark, MapReduce, , Numpy, Pandas, Scikit-learn, Keras, Tensorflow, D3.js, </p>
-                    <p>Ama), , , , </p> */}
+                    {/* <p>Python, JavaScript, Java, C++, R, SQL, MATLAB, HTML, CSS</p>
+                    <p>REST, Node.js, Hadoop, Spark, MapReduce, Git, Numpy, Pandas, Scikit-learn, Keras, Tensorflow, D3.js, React</p>
+                    <p>Amazon Web Services(AWS), Google Cloud Platform (GCP), Github, Firebase, MongoDB, MySQL</p> */}
                     </div>
                 </div>
                 </div>

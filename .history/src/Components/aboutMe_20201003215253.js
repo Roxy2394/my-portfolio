@@ -5,7 +5,7 @@ export default class About extends Component {
   render() {
     return (
       <div>
-        <section className="colorlib-about" data-section="skills">
+        <section className="colorlib-about" data-section="about">
         <div className="colorlib-narrow-content">
             <div className="row">
             <div className="col-md-12">
@@ -25,6 +25,7 @@ export default class About extends Component {
                             <br />RESTful APIs
                             <br />Git/Github
                             <br /> Google Cloud Platform
+
                         </body>
                         </Grid>
                         <Grid item xs={6}>

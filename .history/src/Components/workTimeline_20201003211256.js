@@ -1,14 +1,15 @@
 import React, { Component } from 'react'
 
-export default class EducationTimeline extends Component {
+export default class WorkTimeline extends Component {
   render() {
     return (
       <div>
-        <section className="colorlib-experience" data-section="educationTimeline">
+        <section className="colorlib-experience" data-section="timeline">
           <div className="colorlib-narrow-content">
             <div className="row">
               <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                <h2 className="colorlib-heading animate-box">Education</h2>
+                {/* <span className="heading-meta">highlights</span> */}
+                <h2 className="colorlib-heading animate-box">Work Experience</h2>
               </div>
             </div>
             <div className="row">
@@ -20,8 +21,9 @@ export default class EducationTimeline extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>New York University Tandon School of Engineering <span>2018-present</span></h2>
-                        <p>Master's in Computer Science</p>
+                        <h2>askneo.io <span>Present</span></h2>
+                        <p>Software Engineer</p>
+                        <p>Full Stack Web Development, Node.js, MongoDB, REST APIs, Amazon Web Services, Javascript, React</p>
                       </div>
                     </div>
                   </article>
@@ -31,8 +33,9 @@ export default class EducationTimeline extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Tamkang University, Taiwan <span>2018-2018</span></h2>
-                        <p>Research Internship</p>
+                        <h2>New York University Opportunity Programs <span>Present</span></h2>
+                        <p>Adjunct Instructor/ Tutor</p>
+                        <p>Data Structures and Algorithms, Python Programming, Object Oriented Programming in C++, Matlab for Engineers, Operating Systems, Machine Learning</p>
                       </div>
                     </div>
                   </article>
@@ -42,8 +45,9 @@ export default class EducationTimeline extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Amity School of Enginering and Technology <span>2018-2014</span></h2>
-                        <p>Bachelor of Technology in Computer Science and Engineering</p> 
+                        <h2>ScrollGrade<span>2019-2018</span></h2>
+                        <p>Software Engineering Intern</p>
+                        <p>AWS, Python, Machine Learning Algorithms, Natural Language Processing</p> 
                       </div>
                     </div>
                   </article>
@@ -53,8 +57,8 @@ export default class EducationTimeline extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Navrachana School of Higher Education <span>2013-2008</span></h2>
-                        <p>Higher Education</p> 
+                        <h2>NYU-X Lab <span>2018-2018</span></h2>
+                        <p>Software Engineering Intern for Smart Envi</p> 
                       </div>
                     </div>
                   </article>

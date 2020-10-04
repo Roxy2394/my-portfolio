@@ -18,7 +18,6 @@ function App() {
 			<Introduction/>
 			<About/>
 			<WorkTimeline/>
-			<Projects />
 			<EducationTimeline/>
 			<Puzzles />
           	</div>

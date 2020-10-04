@@ -7,7 +7,6 @@ import EducationTimeline from './components/timeline'
 import Sidebar from './components/sidebar.js';
 import WorkTimeline from './components/workTimeline.js'
 import Puzzles from './components/puzzles.js'
-import Projects from './components/projects.js'
 
 function App() {
   return (
@@ -18,7 +17,6 @@ function App() {
 			<Introduction/>
 			<About/>
 			<WorkTimeline/>
-			<Projects />
 			<EducationTimeline/>
 			<Puzzles />
           	</div>

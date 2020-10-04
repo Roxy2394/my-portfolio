@@ -17,10 +17,10 @@ export default class Sidebar extends Component {
                 <ul>
                   <li className="active"><a href="#home" data-nav-section="home">Introduction</a></li>
                   <li><a href="#timeline" data-nav-section="skills">Skills</a></li>
-                  <li><a href="#timeline" data-nav-section="workTimeline">Experience</a></li>
-                  <li><a href="#timeline" data-nav-section="projects">Projects</a></li>
-                  <li><a href="#timeline" data-nav-section="puzzles">Puzzles</a></li>
-                  <li><a href="#timeline" data-nav-section="educationTimeline">Education</a></li>
+                  <li><a href="#timeline" data-nav-section="skills">Experience</a></li>
+                  <li><a href="#timeline" data-nav-section="skills">Projects</a></li>
+                  <li><a href="#timeline" data-nav-section="skills">Puzzles</a></li>
+                  <li><a href="#timeline" data-nav-section="skills">Education</a></li>
                 </ul>
               </div>
             </nav>
@@ -35,7 +35,6 @@ export default class Sidebar extends Component {
                   Made with <i className="icon-heart" aria-hidden="true" /> and <i className="icon-beer" aria-hidden="true"></i><br></br>
                   Thanks <a href="https://colorlib.com" target="_blank" rel="noopener noreferrer">Colorlib</a> for inspiration 
               </small></p>
-              <medium>WEBSITE UNDER CONSTRUCTION!</medium>
             </div>
           </aside>
         </div>
